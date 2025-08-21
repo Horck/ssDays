@@ -8,7 +8,7 @@ try {
     let obj = JSON.parse(body);
 
     // 修改 renewalDays 字段
-    obj.renewalDays = 30;
+    obj.renewalDays = 5;
     
     // 将修改后的对象转回字符串
     const modifiedBody = JSON.stringify(obj);
